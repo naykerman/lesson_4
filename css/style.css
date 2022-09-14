@@ -57,17 +57,17 @@ div{
 }
 ul li{
    font-family: Roboto;
-   font-size: 500;
+   font-weight: 500;
    color: brown;
 }
 #news{
    font-family: larsseit;
-   font-style: 400;
+   font-weight: 400;
    color: violet;
 }
 .titile, .secondtitle{
    font-family: larsseit;
-   font-style: 700;
+   font-weight: 700;
    color: green;
 }
 p.text{
