@@ -1,0 +1,97 @@
+/*---roboto---*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,500,900&font-display=swap");
+/*---lato---*/
+@font-face {
+   font-family: lato;
+   src: url(../fonts/latoregular.woff2) format("woff2"),  url(../fonts/latoregular.woff) format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: lato;
+   src: url(../fonts/latobold.woff2) format("woff2"), url(../fonts/latobold.woff) format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: lato;
+   src: url(../fonts/latoblack.woff2) format("woff2"), url(../fonts/latoblack.woff) format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+/*---Larsseit---*/
+@font-face {
+   font-family: larsseit;
+   src: url(../fonts/larsseitregular.woff2) format("woof2"), url(../fonts/larsseitregular.woff) format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: larsseit;
+   src: url(../fonts/larsseitmedium.woff2) format("woof2"), url(../fonts/larsseitmedium.woff) format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: larsseit;
+   src: url(../fonts/larsseitbold.woff2) format("woof2"), url(../fonts/larsseitbold.woff) format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+body{
+   font-family: lato;
+   font-weight: 400;
+   color: red;
+}
+div{
+   font-family: lato;
+   font-weight: 900;
+   color: blue;
+}
+ul li{
+   font-family: Roboto;
+   font-size: 500;
+   color: brown;
+}
+#news{
+   font-family: larsseit;
+   font-style: 400;
+   color: violet;
+}
+.titile, .secondtitle{
+   font-family: larsseit;
+   font-style: 700;
+   color: green;
+}
+p.text{
+   font-family: Roboto;
+   font-weight: 900;
+   color: crimson;
+}
+.lockscreen>li{
+   font-family: larsseit;
+   font-weight: 400;
+   color: black;
+}
+.switch~li{
+   font-family: larsseit;
+   font-weight: 700;
+   color: orange;
+}
+#maps *{
+   font-family: lato;
+   font-weight: 900;
+   color: cyan;
+}
+.text .lesson{
+   font-family: Roboto;
+   font-weight: 100;
+   color: purple;
+}
